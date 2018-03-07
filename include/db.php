@@ -2,7 +2,7 @@
 	$server = "localhost";
 	$user = "root";
 	$pass = "";
-	$db ="address-book";
+	$db ="Address_Book_final";
 	$conn = new mysqli($server, $user, $pass, $db);
 	if ($conn->connect_error)
 	  {
